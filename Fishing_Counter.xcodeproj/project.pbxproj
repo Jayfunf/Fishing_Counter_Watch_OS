@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		86032EB526CD57580070CC5C /* Fishing_Counter WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 86032EB426CD57580070CC5C /* Fishing_Counter WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		86032EBA26CD57590070CC5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86032EB926CD57590070CC5C /* Assets.xcassets */; };
+		86032EC126CD57590070CC5C /* Fishing_Counter WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 86032EC026CD57590070CC5C /* Fishing_Counter WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		86032EC626CD57590070CC5C /* Fishing_CounterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86032EC526CD57590070CC5C /* Fishing_CounterApp.swift */; };
+		86032EC826CD57590070CC5C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86032EC726CD57590070CC5C /* ContentView.swift */; };
+		86032ECA26CD57590070CC5C /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86032EC926CD57590070CC5C /* NotificationController.swift */; };
+		86032ECC26CD57590070CC5C /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86032ECB26CD57590070CC5C /* NotificationView.swift */; };
+		86032ECE26CD57590070CC5C /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86032ECD26CD57590070CC5C /* ComplicationController.swift */; };
+		86032ED026CD575A0070CC5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86032ECF26CD575A0070CC5C /* Assets.xcassets */; };
+		86032ED326CD575A0070CC5C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86032ED226CD575A0070CC5C /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		86032EB626CD57580070CC5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86032EAA26CD57580070CC5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86032EB326CD57580070CC5C;
+			remoteInfo = "Fishing_Counter WatchKit App";
+		};
+		86032EC226CD57590070CC5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86032EAA26CD57580070CC5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86032EBF26CD57590070CC5C;
+			remoteInfo = "Fishing_Counter WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		86032EDB26CD575A0070CC5C /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				86032EC126CD57590070CC5C /* Fishing_Counter WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86032EDF26CD575A0070CC5C /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				86032EB526CD57580070CC5C /* Fishing_Counter WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		86032EB026CD57580070CC5C /* Fishing_Counter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fishing_Counter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		86032EB426CD57580070CC5C /* Fishing_Counter WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fishing_Counter WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		86032EB926CD57590070CC5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		86032EBB26CD57590070CC5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86032EC026CD57590070CC5C /* Fishing_Counter WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Fishing_Counter WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		86032EC526CD57590070CC5C /* Fishing_CounterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fishing_CounterApp.swift; sourceTree = "<group>"; };
+		86032EC726CD57590070CC5C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		86032EC926CD57590070CC5C /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		86032ECB26CD57590070CC5C /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		86032ECD26CD57590070CC5C /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		86032ECF26CD575A0070CC5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		86032ED226CD575A0070CC5C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		86032ED426CD575A0070CC5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86032ED526CD575A0070CC5C /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86032EBD26CD57590070CC5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		86032EA926CD57580070CC5C = {
+			isa = PBXGroup;
+			children = (
+				86032EB826CD57580070CC5C /* Fishing_Counter WatchKit App */,
+				86032EC426CD57590070CC5C /* Fishing_Counter WatchKit Extension */,
+				86032EB126CD57580070CC5C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		86032EB126CD57580070CC5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86032EB026CD57580070CC5C /* Fishing_Counter.app */,
+				86032EB426CD57580070CC5C /* Fishing_Counter WatchKit App.app */,
+				86032EC026CD57590070CC5C /* Fishing_Counter WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86032EB826CD57580070CC5C /* Fishing_Counter WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				86032EB926CD57590070CC5C /* Assets.xcassets */,
+				86032EBB26CD57590070CC5C /* Info.plist */,
+			);
+			path = "Fishing_Counter WatchKit App";
+			sourceTree = "<group>";
+		};
+		86032EC426CD57590070CC5C /* Fishing_Counter WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				86032EC526CD57590070CC5C /* Fishing_CounterApp.swift */,
+				86032EC726CD57590070CC5C /* ContentView.swift */,
+				86032EC926CD57590070CC5C /* NotificationController.swift */,
+				86032ECB26CD57590070CC5C /* NotificationView.swift */,
+				86032ECD26CD57590070CC5C /* ComplicationController.swift */,
+				86032ECF26CD575A0070CC5C /* Assets.xcassets */,
+				86032ED426CD575A0070CC5C /* Info.plist */,
+				86032ED526CD575A0070CC5C /* PushNotificationPayload.apns */,
+				86032ED126CD575A0070CC5C /* Preview Content */,
+			);
+			path = "Fishing_Counter WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		86032ED126CD575A0070CC5C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				86032ED226CD575A0070CC5C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		86032EAF26CD57580070CC5C /* Fishing_Counter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86032EE026CD575A0070CC5C /* Build configuration list for PBXNativeTarget "Fishing_Counter" */;
+			buildPhases = (
+				86032EAE26CD57580070CC5C /* Resources */,
+				86032EDF26CD575A0070CC5C /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86032EB726CD57580070CC5C /* PBXTargetDependency */,
+			);
+			name = Fishing_Counter;
+			productName = Fishing_Counter;
+			productReference = 86032EB026CD57580070CC5C /* Fishing_Counter.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		86032EB326CD57580070CC5C /* Fishing_Counter WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86032EDC26CD575A0070CC5C /* Build configuration list for PBXNativeTarget "Fishing_Counter WatchKit App" */;
+			buildPhases = (
+				86032EB226CD57580070CC5C /* Resources */,
+				86032EDB26CD575A0070CC5C /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86032EC326CD57590070CC5C /* PBXTargetDependency */,
+			);
+			name = "Fishing_Counter WatchKit App";
+			productName = "Fishing_Counter WatchKit App";
+			productReference = 86032EB426CD57580070CC5C /* Fishing_Counter WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		86032EBF26CD57590070CC5C /* Fishing_Counter WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86032ED826CD575A0070CC5C /* Build configuration list for PBXNativeTarget "Fishing_Counter WatchKit Extension" */;
+			buildPhases = (
+				86032EBC26CD57590070CC5C /* Sources */,
+				86032EBD26CD57590070CC5C /* Frameworks */,
+				86032EBE26CD57590070CC5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fishing_Counter WatchKit Extension";
+			productName = "Fishing_Counter WatchKit Extension";
+			productReference = 86032EC026CD57590070CC5C /* Fishing_Counter WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86032EAA26CD57580070CC5C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					86032EAF26CD57580070CC5C = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					86032EB326CD57580070CC5C = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					86032EBF26CD57590070CC5C = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 86032EAD26CD57580070CC5C /* Build configuration list for PBXProject "Fishing_Counter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 86032EA926CD57580070CC5C;
+			productRefGroup = 86032EB126CD57580070CC5C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86032EAF26CD57580070CC5C /* Fishing_Counter */,
+				86032EB326CD57580070CC5C /* Fishing_Counter WatchKit App */,
+				86032EBF26CD57590070CC5C /* Fishing_Counter WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		86032EAE26CD57580070CC5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86032EB226CD57580070CC5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86032EBA26CD57590070CC5C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86032EBE26CD57590070CC5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86032ED326CD575A0070CC5C /* Preview Assets.xcassets in Resources */,
+				86032ED026CD575A0070CC5C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86032EBC26CD57590070CC5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86032ECA26CD57590070CC5C /* NotificationController.swift in Sources */,
+				86032EC826CD57590070CC5C /* ContentView.swift in Sources */,
+				86032ECE26CD57590070CC5C /* ComplicationController.swift in Sources */,
+				86032EC626CD57590070CC5C /* Fishing_CounterApp.swift in Sources */,
+				86032ECC26CD57590070CC5C /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		86032EB726CD57580070CC5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86032EB326CD57580070CC5C /* Fishing_Counter WatchKit App */;
+			targetProxy = 86032EB626CD57580070CC5C /* PBXContainerItemProxy */;
+		};
+		86032EC326CD57590070CC5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86032EBF26CD57590070CC5C /* Fishing_Counter WatchKit Extension */;
+			targetProxy = 86032EC226CD57590070CC5C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		86032ED626CD575A0070CC5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		86032ED726CD575A0070CC5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		86032ED926CD575A0070CC5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Fishing_Counter WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 3R7XZ6SCLH;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Fishing_Counter WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Jay5.Fishing-Counter.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Debug;
+		};
+		86032EDA26CD575A0070CC5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Fishing_Counter WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 3R7XZ6SCLH;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Fishing_Counter WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Jay5.Fishing-Counter.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Release;
+		};
+		86032EDD26CD575A0070CC5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3R7XZ6SCLH;
+				IBSC_MODULE = Fishing_Counter_WatchKit_Extension;
+				INFOPLIST_FILE = "Fishing_Counter WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jay5.Fishing-Counter.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Debug;
+		};
+		86032EDE26CD575A0070CC5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3R7XZ6SCLH;
+				IBSC_MODULE = Fishing_Counter_WatchKit_Extension;
+				INFOPLIST_FILE = "Fishing_Counter WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jay5.Fishing-Counter.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Release;
+		};
+		86032EE126CD575A0070CC5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3R7XZ6SCLH;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jay5.Fishing-Counter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		86032EE226CD575A0070CC5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3R7XZ6SCLH;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jay5.Fishing-Counter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86032EAD26CD57580070CC5C /* Build configuration list for PBXProject "Fishing_Counter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86032ED626CD575A0070CC5C /* Debug */,
+				86032ED726CD575A0070CC5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86032ED826CD575A0070CC5C /* Build configuration list for PBXNativeTarget "Fishing_Counter WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86032ED926CD575A0070CC5C /* Debug */,
+				86032EDA26CD575A0070CC5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86032EDC26CD575A0070CC5C /* Build configuration list for PBXNativeTarget "Fishing_Counter WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86032EDD26CD575A0070CC5C /* Debug */,
+				86032EDE26CD575A0070CC5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86032EE026CD575A0070CC5C /* Build configuration list for PBXNativeTarget "Fishing_Counter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86032EE126CD575A0070CC5C /* Debug */,
+				86032EE226CD575A0070CC5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 86032EAA26CD57580070CC5C /* Project object */;
+}
